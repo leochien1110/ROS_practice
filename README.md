@@ -3,25 +3,13 @@
 
 #Instructions for Compiling viznav Software
 
-## 1. Install GSL (GNU Scientific Library)
+## 1. Create workspace
+Create a directory called **ROS_practice** where you normally put your source code (usually git)
 ```
-        sudo apt install libgsl-dev
-```
-
-## 2. Install GTSAM
-```
-        sudo apt-add-repository ppa:borglab/gtsam-develop
-        sudo apt update
-        sudo apt install libgtsam-dev libgtsam-unstable-dev
-```
-
-## 3. Create workspace
-Create a directory called **flashlight** where you normally put your source code (usually nea_src)
-```
-        cd flashlight
+        cd ROS_practice
         mkdir src
         cd src
-        git clone ssh://git@bb.nearearth.us:7999/flas/viznav.git
+        git clone git@github.com:leochien1110/ROS_practice.git
 ```
 
 ## 4. Build workspace
