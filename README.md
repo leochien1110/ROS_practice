@@ -17,6 +17,7 @@ Create a directory called **ROS_practice** where you normally put your source co
         cd ../..
         catkin_make
 ```    
+"catkin_make" twice to build the msg/srv first.
 
 ## 3. To Create a new package/folder
 ```
